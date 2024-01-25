@@ -9,7 +9,7 @@ body {
     background-size: cover;
 }
 
-.product-cards {
+.product-card {
     position: absolute;
     top: 250px;
     left: 50px;
@@ -26,7 +26,7 @@ body {
 	padding: 1rem;
 }
 
-.card img {
+.product-card img {
 	padding-left: 4rem;
 	width: 100px;
     height: 150px;
