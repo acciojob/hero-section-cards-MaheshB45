@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.hero {
+.hero-section {
     height: 500px;
     background-image: url('https://m.media-amazon.com/images/I/51ZVeRqZvGL._SX3000_.jpg');
     background-size: cover;
@@ -28,6 +28,7 @@ body {
 
 .card img {
 	padding-left: 4rem;
+	width: 100px;
     height: 150px;
     object-fit: cover;
 	margin: 2rem;
