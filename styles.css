@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+}
+
+.hero {
+    height: 500px;
+    background-image: url('https://m.media-amazon.com/images/I/51ZVeRqZvGL._SX3000_.jpg');
+    background-size: cover;
+}
+
+.product-cards {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+	margin-bottom: 2rem;
+	padding: 1rem;
+}
+
+.card img {
+	padding-left: 4rem;
+    height: 150px;
+    object-fit: cover;
+	margin: 2rem;
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.description {
+    text-align: center;
+    font-size: 14px;
+}
